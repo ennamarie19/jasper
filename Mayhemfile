@@ -1,0 +1,9 @@
+image: ghcr.io/ennamarie19/jasper-fuzz:latest
+project: jasper
+target: jasper-fuzz
+testsuite:
+    - file://data/images
+
+cmds:
+    - cmd: /jasper --output-format jpg
+      max_length: 89000
