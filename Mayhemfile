@@ -1,4 +1,3 @@
-image: ghcr.io/ennamarie19/jasper-fuzz:latest
 project: jasper
 target: jasper-fuzz
 testsuite:
